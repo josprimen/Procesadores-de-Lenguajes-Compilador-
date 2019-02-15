@@ -9,36 +9,36 @@ clase y diagramas de objetos UML. Los diagramas de clase tienen la siguiente exp
 declaración de clase, declaración de asociación y declaración de restricciones de multiplicidad
 sobre los extremos de la asociación. Un ejemplo de sentencia UMLTEXT es la siguiente:
 
-BEGIN_CLASS_DIAGRAM //Diagrama de clase.
+BEGIN_CLASS_DIAGRAM //Diagrama de clase.<br />
 (Class A) //Clase A <br />
 (Class B) //Clase B <br />
-(Association R between A and B) //Asociación entre A y B
-(Multiplicity R on A is = 1) //Restricción multiplicidad sobre R
+(Association R between A and B) //Asociación entre A y B<br />
+(Multiplicity R on A is = 1) //Restricción multiplicidad sobre R<br />
  //en A
-(Multiplicity R on B is >= 1) //Restricción multiplicidad sobre R
+(Multiplicity R on B is >= 1) //Restricción multiplicidad sobre R<br />
  //en B
-END_CLASS_DIAGRAM
-BEGIN_OBJECT_DIAGRAM //Diagrama de objetos.
-(Object o1 Class A) //Objeto clase A
-(Object o2 Class B) //Objeto clase B
-(Object o3 Class A) //Objeto clase A
-(Object o4 Class B) //Objeto clase B
-(Link l1 Association R LinkedObjects o1 o2) //Enlace de R
-(Link l2 Association R LinkedObjects o3 o2) //Enlace de R
-END_OBJECT_DIAGRAM
+END_CLASS_DIAGRAM<br />
+BEGIN_OBJECT_DIAGRAM //Diagrama de objetos.<br />
+(Object o1 Class A) //Objeto clase A<br />
+(Object o2 Class B) //Objeto clase B<br />
+(Object o3 Class A) //Objeto clase A<br />
+(Object o4 Class B) //Objeto clase B<br />
+(Link l1 Association R LinkedObjects o1 o2) //Enlace de R<br />
+(Link l2 Association R LinkedObjects o3 o2) //Enlace de R<br />
+END_OBJECT_DIAGRAM<br />
 
 PREPARAR ENTORNO DE DESARROLLO (eclipse mars): http://www.lsi.us.es/docencia/get.php?id=9152
 
-PARA COMPROBAR EL FUNCIONAMIENTO:
-1º Borrar A.java del default package(que se corresponde con la clase A del lenguaje UMLTEXT)
-2º Borrar B.java del default package (que se corresponde con la clase B del lenguaje UMLTEXT)
-3º Borrar AsociacionR.java del default package (que se corresponde con la asociación R del lenguaje UMLTEXT)
-4º Borrar Fantasia.java del default package (que se corresponde con la creación de objetos y enlaces del lenguaje UMLTEXT)
-5º Compilar Anasint2.g
-6º Compilar Analex.g
-7º Compilar Compilador2.g
-8º Ejecutar Principal2.java
-9º Refrescar proyecto (f5)
+PARA COMPROBAR EL FUNCIONAMIENTO:<br />
+1º Borrar A.java del default package(que se corresponde con la clase A del lenguaje UMLTEXT)<br />
+2º Borrar B.java del default package (que se corresponde con la clase B del lenguaje UMLTEXT)<br />
+3º Borrar AsociacionR.java del default package (que se corresponde con la asociación R del lenguaje UMLTEXT)<br />
+4º Borrar Fantasia.java del default package (que se corresponde con la creación de objetos y enlaces del lenguaje UMLTEXT)<br />
+5º Compilar Anasint2.g<br />
+6º Compilar Analex.g<br />
+7º Compilar Compilador2.g<br />
+8º Ejecutar Principal2.java<br />
+9º Refrescar proyecto (f5)<br />
 
 
 DISEÑO:
