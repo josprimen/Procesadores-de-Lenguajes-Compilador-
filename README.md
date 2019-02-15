@@ -10,7 +10,7 @@ declaración de clase, declaración de asociación y declaración de restriccion
 sobre los extremos de la asociación. Un ejemplo de sentencia UMLTEXT es la siguiente:
 
 BEGIN_CLASS_DIAGRAM //Diagrama de clase.
-(Class A) //Clase A
+(Class A) //Clase A \n
 (Class B) //Clase B
 (Association R between A and B) //Asociación entre A y B
 (Multiplicity R on A is = 1) //Restricción multiplicidad sobre R
