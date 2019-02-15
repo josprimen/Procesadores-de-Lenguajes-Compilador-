@@ -1,0 +1,16 @@
+BEGIN_CLASS_DIAGRAM
+(Class A)
+(Class B)
+(Association R between A and B)
+(Multiplicity R on A is = 1)
+(Multiplicity R on B is >= 1)
+END_CLASS_DIAGRAM
+
+BEGIN_OBJECT_DIAGRAM
+(Object o1 Class A)
+(Object o2 Class B)
+(Object o3 Class A)
+(Object o4 Class B)
+(Link l1 Association R LinkedObjects o1 o2)
+(Link l2 Association R LinkedObjects o3 o2)
+END_OBJECT_DIAGRAM
