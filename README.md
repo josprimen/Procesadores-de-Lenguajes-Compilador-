@@ -62,7 +62,7 @@ TRADUCCIÓN PROGRAMA EJEMPLO UMLTEXT --> Java
 
 ###########################JAVA############################
 
-----Clase A-----
+----Clase A-----<br />
 package uml;
 
 public class A {
@@ -76,7 +76,7 @@ public class A {
 }
 ---------------
 
-----Clase B-----
+----Clase B-----<br />
 package uml;
 
 public class B {
@@ -90,7 +90,7 @@ public class B {
 }
 ---------------
 
-----Clase AsociacionR-----
+----Clase AsociacionR-----<br />
 package uml;
 
 public class AsociacionR {
@@ -112,7 +112,7 @@ public class AsociacionR {
 }
 ---------------
 
-----Clase Principal-----
+----Clase Principal-----<br />
 package uml;
 
 public class Principal {
@@ -230,20 +230,20 @@ La creación de objetos y enlaces irá dentro de una clase principal.
 ----------------------------------------------------
 
 generar codigo declaracion clase:
-   escribir en fichero: 
-         import java.io.*;
+   escribir en fichero: <br />
+         import java.io.*;<br />
          public class _Programa{
    
-generar codigo cabecera main:
+generar codigo cabecera main:<br />
    escribir en fichero:   public static void main(String[] args) {
       
-generar codigo fin main:
+generar codigo fin main:<br />
    escribir en fichero:   } 
   
-generar codigo fin clase:  
+generar codigo fin clase:  <br />
    escribir en fichero: } 
 
-generar codigo constructor vacio:
+generar codigo constructor vacio:<br />
    escribir en fichero:
 	public nombre (String a){
 	}
