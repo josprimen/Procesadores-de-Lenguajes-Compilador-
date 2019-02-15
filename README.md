@@ -17,7 +17,7 @@ BEGIN_CLASS_DIAGRAM //Diagrama de clase.<br />
  //en A
 (Multiplicity R on B is >= 1) //Restricción multiplicidad sobre R<br />
  //en B
-END_CLASS_DIAGRAM<br />
+END_CLASS_DIAGRAM<br /> <br />
 BEGIN_OBJECT_DIAGRAM //Diagrama de objetos.<br />
 (Object o1 Class A) //Objeto clase A<br />
 (Object o2 Class B) //Objeto clase B<br />
@@ -46,18 +46,18 @@ DISEÑO:
 TRADUCCIÓN PROGRAMA EJEMPLO UMLTEXT --> Java
 -----------------------------
 
-(clase A)
-(clase B)
-(Asociación R entre A y B)
-(Multiplicidad R en A = 1)
-(Multiplicidad R en B >= 1)
+(clase A)<br />
+(clase B)<br />
+(Asociación R entre A y B)<br />
+(Multiplicidad R en A = 1)<br />
+(Multiplicidad R en B >= 1)<br /><br />
 
-(Objeto o1 de clase A)
-(Objeto o2 de clase B)
-(Objeto o3 de clase A)
-(Objeto o4 de clase B)
-(Enlace l1 de tipo R entre o1 y o2)
-(Enlace l2 de tipo R entre o3 y o2)
+(Objeto o1 de clase A)<br />
+(Objeto o2 de clase B)<br />
+(Objeto o3 de clase A)<br />
+(Objeto o4 de clase B)<br />
+(Enlace l1 de tipo R entre o1 y o2)<br />
+(Enlace l2 de tipo R entre o3 y o2)<br />
 
 
 ###########################JAVA############################
@@ -139,18 +139,18 @@ public class Principal {
 DISEÑO COMPILADOR UMLTEXT --> Java
 -----------------------------
 
-(clase A)
-(clase B)
-(Asociación R entre A y B)
-(Multiplicidad R en A = 1)
-(Multiplicidad R en B >= 1)
+(clase A)<br />
+(clase B)<br />
+(Asociación R entre A y B)<br />
+(Multiplicidad R en A = 1)<br />
+(Multiplicidad R en B >= 1)<br /><br />
 
-(Objeto o1 de clase A)
-(Objeto o2 de clase B)
-(Objeto o3 de clase A)
-(Objeto o4 de clase B)
-(Enlace l1 de tipo R entre o1 y o2)
-(Enlace l2 de tipo R entre o3 y o2)
+(Objeto o1 de clase A)<br />
+(Objeto o2 de clase B)<br />
+(Objeto o3 de clase A)<br />
+(Objeto o4 de clase B)<br />
+(Enlace l1 de tipo R entre o1 y o2)<br />
+(Enlace l2 de tipo R entre o3 y o2)<br /><br />
 
 (1) Definir el esquema de traducción de un programa UMLTEXT
 
@@ -254,7 +254,7 @@ generar codigo constructor vacio:
   
   
   NOTA:
-  La dificultad principal fue el desconocimiento de que el anasint genera un ASA que más tarde es el que consume el compilador.
+  La dificultad principal fue el desconocimiento de que el anasint genera un ASA que más tarde es el que consume el compilador.<br />
   Los anasint y principal son versiones intermedias no finales que surgieron durante el desarrollo.
   
   
