@@ -13,10 +13,10 @@ BEGIN_CLASS_DIAGRAM //Diagrama de clase.<br />
 (Class A) //Clase A <br />
 (Class B) //Clase B <br />
 (Association R between A and B) //Asociación entre A y B<br />
-(Multiplicity R on A is = 1) //Restricción multiplicidad sobre R<br />
- //en A
-(Multiplicity R on B is >= 1) //Restricción multiplicidad sobre R<br />
- //en B
+(Multiplicity R on A is = 1) //Restricción multiplicidad sobre R
+ //en A<br />
+(Multiplicity R on B is >= 1) //Restricción multiplicidad sobre R
+ //en B<br />
 END_CLASS_DIAGRAM<br /> <br />
 BEGIN_OBJECT_DIAGRAM //Diagrama de objetos.<br />
 (Object o1 Class A) //Objeto clase A<br />
