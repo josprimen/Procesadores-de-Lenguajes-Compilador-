@@ -1,4 +1,4 @@
-# Procesadores-de-Lenguajes-Compilador-
+# Procesadores de Lenguajes -Compilador-
 Compilador del lenguaje UMLTEXT realizado por José Enrique Prieto Menacho para la asignatura PL de I.Informática- TI en la Universidad de Sevilla
 
 ENUNCIADO:
